@@ -8,6 +8,7 @@
 import Header from './Header'; // 1. Must import it
 import Footer from './Footer';
 import Food from './Food';
+import Button from './Button';
 
 function App() {
   return (
@@ -15,6 +16,8 @@ function App() {
    <Header></Header>
    <Footer></Footer>
    <Food></Food>
+   <Button></Button>
+   
    </>
   );
 }
