@@ -9,7 +9,10 @@ function Button(){
 
     }
     return(
+        <> 
     <button style={style}>Please click</button>
+<hr></hr>
+    </>
     );
 
 }

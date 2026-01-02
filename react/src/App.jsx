@@ -18,7 +18,8 @@ function App() {
    <Footer></Footer>
    <Food></Food>
    <Button></Button>
-   <Student name="Nigga" age= "30" Number="0962618205" isStudent={false}></Student>
+   <Student name="Nigga" age= "30" Number="0962618202" isStudent={false}></Student>
+   <Student name="Re ach" age= "45" Number="o12681486" isStudent={true}></Student>
    
    </>
   );
