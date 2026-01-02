@@ -9,6 +9,7 @@ import Header from './Header'; // 1. Must import it
 import Footer from './Footer';
 import Food from './Food';
 import Button from './Button';
+import Student from './Student';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
    <Footer></Footer>
    <Food></Food>
    <Button></Button>
+   <Student name="Nigga" age= "30" Number="0962618205" isStudent={false}></Student>
    
    </>
   );
