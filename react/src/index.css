@@ -66,3 +66,12 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+/* .Button{
+  background-color: white;
+  color: black;
+  padding: 20px 30px;
+  border-radius: 60px;
+  border: none;
+  cursor: progress;
+} */
+/* styling in button jsx */

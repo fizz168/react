@@ -1,6 +1,15 @@
 function Button(){
+    const style = {
+       backgroundColor: "hsl(200, 100%, 50%)",
+       color:"white",
+       padding:"20px 10px",
+       boarderRadius: "5px",
+       border: "none",
+       cursor: "progress",
+
+    }
     return(
-    <button className="Button">Please click</button>
+    <button style={style}>Please click</button>
     );
 
 }
