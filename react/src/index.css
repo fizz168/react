@@ -82,3 +82,20 @@ button:focus-visible {
 .Students p{
   margin:0%;
 }
+.Welcome{
+  background-color: green;
+  margin: 200x;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding: 20px 10px ;
+  border-radius: 60px;
+  border:none;
+}
+.Log{
+  background-color: rgba(255, 0, 0, 0.606);
+  margin: 20px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;  
+  padding : 20px 10px;
+  border-radius: 60px;
+  border: 1px solid white;
+  
+}

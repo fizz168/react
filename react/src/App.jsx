@@ -10,6 +10,7 @@ import Footer from './Footer';
 import Food from './Food';
 import Button from './Button';
 import Student from './Student';
+import UserGretting from './UserGretting';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
    <Button></Button>
    <Student name="Nigga" age= "30" Number="0962618202" isStudent={false}></Student>
    <Student name="Re ach" age= "45" Number="o12681486" isStudent={true}></Student>
+   <UserGretting isLoggedIn= {false} UserName="Nigga"></UserGretting>
    
    </>
   );
