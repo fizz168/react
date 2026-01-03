@@ -11,7 +11,12 @@ function List(props){
         ];
     // fruit.sort((a,b) => a.name.localeCompare(b.name)) //sorting alphabet 
     // fruit.sort((a,b) => b.name.localeCompare(a.name)) //reverse
-    fruit.sort((a,b) => b.calories - a.calories)
+    // fruit.sort((a,b) => a.calories - b.calories) //sorting number
+    // fruit.sort((a,b) => b.calories - a.calories) // Reverse
+
+    const lowCalFruit = fruit.filter(fruit => fruit.calories < 100); //finding low or high index by condi
+    // const listItem = lowCalFruit.map(lowCalFruit => <li key={lowCalFruit.id}>{lowCalFruit.name}: &nbsp;{lowCalFruit.calories}; <b>{lowCalFruit.weight}</b></li>)
+   
 
     const listItem = fruit.map(fruit => <li key={fruit.id}>{fruit.name}: &nbsp;{fruit.calories}; <b>{fruit.weight}</b></li>)
    
