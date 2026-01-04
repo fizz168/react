@@ -11,7 +11,7 @@ function List(props){
         ];
     const vege = [
         {id:7, name:"eggplant",calories: 60, weight: "100kg" },
-        {id:8, name:"carrot", calories:70, weight:"8"}
+        {id:8, name:"carrot", calories:70, weight:"8kg"}
 
     ];
     // fruit.sort((a,b) => a.name.localeCompare(b.name)) //sorting alphabet 
@@ -24,7 +24,7 @@ function List(props){
    
 
     const listItem = fruit.map(fruit => <li key={fruit.id}>{fruit.name}: &nbsp;{fruit.calories}; <b>{fruit.weight}</b></li>)
-    const itemList = vege.map(vege => <li key={vege.id}>{vege.name}; <b>{vege.weight}</b></li>)
+    const itemList = vege.map(vege => <li key={vege.id}>{vege.name};{vege.calories}; <b>{vege.weight}</b></li>)
    
     return(
         <>
