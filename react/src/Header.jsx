@@ -11,7 +11,7 @@
 function Header (){
     return(
         <header>
-            <h1>hello world</h1>
+            <h1 className="hello">hello world</h1>
             <nav>
                 <ul>
                     <li><a href="https://landonorris.com/">Lg game</a></li>

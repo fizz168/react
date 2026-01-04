@@ -16,13 +16,15 @@ import List from './List';
 function App() {
   return (
     <>
+    
+    
    <Header></Header>
    <Footer></Footer>
    <Food></Food>
    <Button></Button>
    <Student name="Nigga" age= "30" Number="0962618202" isStudent={false}></Student>
    <Student name="Re ach" age= "45" Number="o12681486" isStudent={true}></Student>
-   <UserGretting isLoggedIn= {false} UserName="Nigga"></UserGretting>
+   <UserGretting isLoggedIn= {true} UserName="Nigga"></UserGretting>
    <List></List>
    
    </>

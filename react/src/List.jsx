@@ -28,7 +28,7 @@ function List(props){
    
     return(
         <>
-        <h2>Item list </h2><br>
+        <h2 className="Title">Item list </h2><br>
         </br>
     <strong>Fruit</strong><br></br>
     <ol>
