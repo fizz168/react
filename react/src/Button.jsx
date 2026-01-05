@@ -1,6 +1,6 @@
 function Button(){
     const style = {
-       backgroundColor: "hsl(200, 100%, 50%)",
+       backgroundColor: "black",
        color:"white",
        padding:"20px 10px",
        boarderRadius: "5px",
@@ -10,7 +10,7 @@ function Button(){
     }
     return(
         <> 
-    <button style={style}>Please click</button>
+    <button style={style}><a href="https://landonorris.com/">Please click</a></button>
 <hr></hr>
     </>
     );
