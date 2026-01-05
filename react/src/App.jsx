@@ -12,6 +12,7 @@ import Button from './Button';
 import Student from './Student';
 import UserGretting from './UserGretting';
 import List from './List';
+import HandleB from './HandleB';
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
    <Student name="Re ach" age= "45" Number="012681486" isStudent={true}></Student>
    <UserGretting isLoggedIn= {true} UserName="Nigga"></UserGretting>
    <List></List>
+  <HandleB></HandleB>
    
    </>
   );

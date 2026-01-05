@@ -115,3 +115,11 @@ button:focus-visible {
   align-items: center;
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
+.nigga{
+  background-color: white;
+  color:#1a1a1a;
+  cursor: pointer;
+  font-family: 'Times New Roman', Times, serif;
+  padding-left: 20px;
+  
+}
