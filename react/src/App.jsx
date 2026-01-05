@@ -23,7 +23,7 @@ function App() {
    <Food></Food>
    <Button></Button>
    <Student name="Nigga" age= "30" Number="0962618202" isStudent={false}></Student>
-   <Student name="Re ach" age= "45" Number="o12681486" isStudent={true}></Student>
+   <Student name="Re ach" age= "45" Number="012681486" isStudent={true}></Student>
    <UserGretting isLoggedIn= {true} UserName="Nigga"></UserGretting>
    <List></List>
    
