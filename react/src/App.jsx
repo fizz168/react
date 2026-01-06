@@ -13,6 +13,7 @@ import Student from './Student';
 import UserGretting from './UserGretting';
 import List from './List';
 import HandleB from './HandleB';
+import MyComponent from './MyComponent';
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
    <UserGretting isLoggedIn= {true} UserName="Nigga"></UserGretting>
    <List></List>
   <HandleB></HandleB>
+  <MyComponent></MyComponent>
    
    </>
   );
