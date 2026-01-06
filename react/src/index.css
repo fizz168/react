@@ -6,7 +6,7 @@
 
   color-scheme: light dark;
   color:rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  background-image: url(https://images.freecreatives.com/wp-content/uploads/2016/04/Solid-Black-Website-Background.jpg);
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -121,5 +121,5 @@ button:focus-visible {
   cursor: pointer;
   font-family: 'Times New Roman', Times, serif;
   padding-left: 20px;
-  
+
 }
