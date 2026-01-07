@@ -39,7 +39,7 @@ return(
         <p>Age: {age} </p>
         <button className='nigga' onClick={incrementAge}>Increment Age</button>
           
-          <p>Number: {number}</p>
+          <p className='counter-container'>Number: {number}</p>
         <button className='nigga' onClick={DecrementNumber} >Decrement Number</button>
         <button className='nigga' onClick={IncrementNumber}>Increment Number</button>
         <button className='nigga' onClick={reset}>Reset</button>
