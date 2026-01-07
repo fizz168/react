@@ -121,5 +121,6 @@ button:focus-visible {
   cursor: pointer;
   font-family: 'Times New Roman', Times, serif;
   padding-left: 20px;
+  margin-right: 10px ;
 
 }
