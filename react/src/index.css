@@ -126,7 +126,7 @@ button:focus-visible {
   padding-left: 20px;
   margin-right: 10px ;
 }
-.nigga hover{
+.nigga:hover{
    background-color: hsl(197, 100%, 48%)
 }
 .counter-container{
@@ -144,3 +144,19 @@ button:focus-visible {
   background-color: hsl(120, 68%, 54%);
 
 }
+.contain{
+  text-align: center;
+  font-family: cursive;
+}
+.b{
+  width: 150px;
+  margin-right: 10px;
+  background-color: hsl(185, 100%, 50%);
+  color: blue;
+  cursor: pointer;
+}
+.b:hover{
+   background-color: hsl(185, 100%, 40%);
+  
+}
+

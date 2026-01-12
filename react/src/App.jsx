@@ -14,6 +14,7 @@ import UserGretting from './UserGretting';
 import List from './List';
 import HandleB from './HandleB';
 import MyComponent from './MyComponent';
+import Counter from './Counter';
 
 function App() {
   return (
@@ -30,6 +31,8 @@ function App() {
    <List></List>
   <HandleB></HandleB>
   <MyComponent></MyComponent>
+  <Counter></Counter>
+  
    
    </>
   );
