@@ -22,6 +22,7 @@ function App() {
     
     
    <Header></Header>
+   <Header></Header>
    <Footer></Footer>
    <Food></Food>
    <Button></Button>
