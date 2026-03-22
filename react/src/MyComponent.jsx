@@ -29,7 +29,10 @@ const EmployStatus = () => {
     setIsEmploy(!isEmploy);
 }
 
-
+const [pas, setPas] = useState();
+const pasStatus = () => {
+    setPas(!pas);
+}
 return(
     <>
     <div>
@@ -46,6 +49,9 @@ return(
 
         <p>Are you Employ : {isEmploy ? "yes" : "no"} </p>
         <button className='nigga' onClick={EmployStatus}>Click this to find out</button>
+        <p>Password: {pas ? "Visible" : "Hidden"}</p>
+        <button className='nigga' onClick={pasStatus}>Toggle Password</button>
+
     </div>
    
     </>
